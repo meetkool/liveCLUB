@@ -1,0 +1,20 @@
+{
+    "sqltools.connections": [
+        {
+            "pgOptions": {
+                "ssl": {
+                    "rejectUnauthorized": true
+                }
+            },
+            "previewLimit": 50,
+            "server": "ep-wispy-heart-a5apcgr0.us-east-2.aws.neon.tech",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "LiveHub Production",
+            "group": "Production Servers",
+            "database": "livehub",
+            "username": "livehub_owner",
+            "password": "s4JnzH1lWYkx"
+        }
+    ]
+}
