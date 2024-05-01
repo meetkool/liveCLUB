@@ -1,11 +1,9 @@
-import { StreamPlayerSkeleton } from "@/components/stream-player";
+import { StreamPlayerSkeleton } from '@/components/stream-player'
 
-const UserLoading = () => {
-  return ( 
-    <div className="h-full">
-      <StreamPlayerSkeleton />
-    </div>
-  );
-};
- 
-export default UserLoading;
+export default function UserLoading() {
+	return (
+		<div className='h-full'>
+			<StreamPlayerSkeleton />
+		</div>
+	)
+}

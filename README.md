@@ -1,79 +1,35 @@
-# LiveCLUB
+# Full-Stack Twitch Clone: Next, React, MySQL, Prisma, Livestreaming, TypeScript, Tailwind
 
-LiveCLUB is a streaming platform inspired by Twitch. Users can broadcast live by connecting their OBS software, and it features real-time viewer counts, chat functionality, follower interactions, and more. This platform utilizes technologies like LiveKit for chat and Clerk for user authentication.
+![Twitch Clone Thumbnail (3)](https://github.com/AntonioErdeljac/next14-twitch-clone/assets/23248726/6e0153f1-ab30-4924-9f06-13d2f46ff3b5)
 
-## Key Features
+Key Features:
 
-- **Broadcasting**: Stream live content by connecting OBS to the application.
-- **Viewer Engagement**: Live viewer counts and real-time chat.
-- **User Interaction**: Features like following, blocking, slow chat mode, and chat for followers only.
-- **Moderation Tools**: Options to enable or disable chat, and manage slow and followers-only chat modes.
-- **Search Capability**: Easily find streams and content.
-- **User Updates**: Utilizes Clerk WEBHOOKS for user management updates.
-
-## Installation
-
-First, clone the project to your local machine:
-
-```bash
-git clone https://github.com/meetkool/livehub.git
-```
-
-Navigate to the project directory:
-
-```bash
-cd livehub
-```
-
-Install the necessary dependencies:
-
-```bash
-yarn install
-```
-
-Set up the environment variables in a `.env` file:
-
-```
-# Clerk settings
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_publishable_key_here
-CLERK_SECRET_KEY=your_secret_key_here
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/
-NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
-CLERK_WEBHOOK_SECRET=your_webhook_secret_here
-
-# Database configuration
-DATABASE_URL=your_database_url_here
-
-# LiveKit settings
-LIVEKIT_API_URL=your_livekit_api_url_here
-LIVEKIT_API_KEY=your_livekit_api_key_here
-LIVEKIT_API_SECRET=your_livekit_api_secret_here
-NEXT_PUBLIC_LIVEKIT_WS_URL=your_livekit_ws_url_here
-
-# Uploading service credentials
-UPLOADTHING_SECRET=your_uploadthing_secret_here
-UPLOADTHING_APP_ID=your_uploadthing_app_id_here
-```
-
-### Set Up Database
-
-Create a free PostgreSQL instance on [neon.tech](https://neon.tech). Then, prepare your database:
-
-```bash
-npx prisma generate
-npx prisma db push
-```
-
-Start the application:
-
-```bash
-yarn dev
-```
-
-## Future Improvements
-
-- **Authentication**: Plan to migrate from Clerk to NextAuth.js for enhanced authentication flexibility.
-
-This revised documentation should provide a comprehensive guide to setting up and using LiveCLUB, along with a clear roadmap for future enhancements.
+- 📡 Streaming using RTMP / WHIP protocols
+- 🌐 Generating ingress
+- 🔗 Connecting Next.js app to OBS / Your favorite streaming software
+- 🔐 Authentication
+- 📸 Thumbnail upload
+- 👀 Live viewer count
+- 🚦 Live statuses
+- 💬 Real-time chat using sockets
+- 🎨 Unique color for each viewer in chat
+- 👥 Following system
+- 🚫 Blocking system
+- 👢 Kicking participants from a stream in real-time
+- 🎛️ Streamer / Creator Dashboard
+- 🐢 Slow chat mode
+- 🔒 Followers only chat mode
+- 📴 Enable / Disable chat
+- 🔽 Collapsible layout (hide sidebars, chat etc, theatre mode etc.)
+- 📚 Sidebar following & recommendations tab
+- 🏠 Home page recommending streams, sorted by live first
+- 🔍 Search results page with a different layout
+- 🔄 Syncing user information to our DB using Webhooks
+- 📡 Syncing live status information to our DB using Webhooks
+- 🤝 Community tab
+- 🎨 Beautiful design
+- ⚡ Blazing fast application
+- 📄 SSR (Server-Side Rendering)
+- 🗺️ Grouped routes & layouts
+- 🗃️ MySQL
+- 🚀 Deployment
