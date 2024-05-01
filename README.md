@@ -1,6 +1,6 @@
-# LiveHUB
+# LiveCLUB
 
-LiveHUB is a streaming platform inspired by Twitch. Users can broadcast live by connecting their OBS software, and it features real-time viewer counts, chat functionality, follower interactions, and more. This platform utilizes technologies like LiveKit for chat and Clerk for user authentication.
+LiveCLUB is a streaming platform inspired by Twitch. Users can broadcast live by connecting their OBS software, and it features real-time viewer counts, chat functionality, follower interactions, and more. This platform utilizes technologies like LiveKit for chat and Clerk for user authentication.
 
 ## Key Features
 
@@ -76,4 +76,4 @@ yarn dev
 
 - **Authentication**: Plan to migrate from Clerk to NextAuth.js for enhanced authentication flexibility.
 
-This revised documentation should provide a comprehensive guide to setting up and using LiveHUB, along with a clear roadmap for future enhancements.
+This revised documentation should provide a comprehensive guide to setting up and using LiveCLUB, along with a clear roadmap for future enhancements.
